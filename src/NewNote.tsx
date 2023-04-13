@@ -5,7 +5,6 @@ export function NewNote(){
         <>
             <h1 className='mb-4'>New Note</h1>
             <NoteForm />
-            checking for changes
         </>
     )
 }
