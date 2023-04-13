@@ -5,7 +5,7 @@ export function NewNote(){
         <>
             <h1 className='mb-4'>New Note</h1>
             <NoteForm />
-            <p>changes made on mac</p>
+            <p>changes made on PC</p>
         </>
     )
 }
