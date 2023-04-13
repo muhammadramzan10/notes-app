@@ -5,7 +5,7 @@ export function NewNote(){
         <>
             <h1 className='mb-4'>New Note</h1>
             <NoteForm />
-            <p>changes made from my mac</p>
+            <p>changes made on git</p>
         </>
     )
 }
