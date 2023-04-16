@@ -5,6 +5,7 @@ import { NewNote } from "./NewNote"
 import { Container } from "react-bootstrap"
 import { useMemo } from "react"
 import { v4 as uuid4 } from "uuid"
+import { NoteList } from "./NoteList"
 
 
 
@@ -63,7 +64,7 @@ function App() {
 		<Container className="my-4">
 
 			<Routes>
-				<Route path="/" element={<h1>Home </h1>} />
+				<Route path="/" element={<NoteList notes={notesWithTags} availableTags={tags}/>} />
 				<Route path="new" element={
 					<NewNote 
 						onSubmit={onCreateNote} 
