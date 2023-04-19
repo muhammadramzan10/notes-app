@@ -8,8 +8,6 @@ import { v4 as uuid4 } from "uuid"
 import { NoteList } from "./NoteList"
 
 
-
-
 export type Tag={
 	id: string
 	label: string
@@ -71,8 +69,7 @@ function App() {
 						onAddTag={addTag} 
 						availableTags={tags}	
 					/>
-					} 
-						
+					} 		
 				/>
 				<Route path="/:id">
 					<Route index element={<h1>Show</h1>} />
