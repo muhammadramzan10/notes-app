@@ -27,7 +27,7 @@ export function NoteList({ availableTags, notes }: NoteListProps) {
             return (title === '' || note.title.toLowerCase().includes(title.toLowerCase())) &&  (selectedTags.length === 0 || selectedTags.every(tag => note.tags.some((noteTag: { id: string }) => noteTag.id === tag.id) ))
         })}, [title, selectedTags, notes])       
 
-    console.log(filteredNotes)
+    // console.log(filteredNotes)
 
     return (
         <>
